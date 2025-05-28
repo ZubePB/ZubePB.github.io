@@ -1,0 +1,136 @@
+<html lang="en" style="--blazor-load-percentage: 100%; --blazor-load-percentage-text: &quot;100%&quot;;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <base href="/">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link href="BlazorApp.styles.css" rel="stylesheet">
+    <!--!--><!--!--><!--!-->
+    <title>Portfolio</title><!--!--><!--!--><!--!-->
+</head>
+
+<body>
+    <div id="app"><!--!--><!--!--><!--!--><!--!-->
+        <div id="main" ><!--!--><!--!--><!--!--><!--!-->
+
+            <!--!--><!--!-->
+            <div id="header"><a href="#home" target="_top" >Home</a>
+                <a href="#about" target="_top">About</a>
+                <a href="#portfolio" target="_top" >Portfolio</a>
+                <a href="#contact" target="_top" >Contact</a>
+            </div><!--!-->
+            <!--!-->
+            <section class="dark" id="home"><img class="background" src="" alt="woman with glasses holding a tablet">
+                <div style="position: absolute; top: 30%; left: 2rem;">
+                    <h1>Zube Pierre Basali</h1><!--!-->
+                    <h2>C# Back End Developper</h2>
+                </div><!--!-->
+                <!--!-->
+                <div style="position: absolute; bottom: 8rem; left: 50%;"><a href="#about" target="_top"><img
+                            src="images/down-arrow.svg" style="height: 3rem; width: 3rem;" alt="scroll down"></a></div>
+            </section><!--!-->
+            <!--!-->
+            <section class="light" id="about"><img class="background" src="images/grey_yellow_background.jpg"
+                    alt="gray abstract background"><!--!-->
+                <h2 style="color: white; margin-top: -8vh">About Myself</h2>
+                <div
+                    style="background-color: rgba(190,190,190); width: 50%; padding: 4rem; margin: 3rem auto; text-align: center;">
+                    <p class="large">I'm a Back End autodidact developper specialised in C#. I like to learn and
+                        discover how computers work.</p><!--!-->
+                    <hr>
+                    <ul style="text-align: left; columns: 2; font-size: 1.25rem; margin: 2rem 3rem; gap: 3rem;">
+                        <li key="Basic Web API">Basic Web API</li>
+                        <li key="Entity Framework">Entity Framework</li>
+                        <li key="Sql/Sqlite">Sql/Sqlite</li>
+                        <li key="Basic Unit Testing">Basic Unit Testing</li>
+                        <li key="Keen Learner">Keen Learner</li>
+                        <li key="Autodidact">Autodidact</li>
+                        <li key="Team Worker">Team Worker</li>
+                        <li key="Disponibility">Disponibility</li>
+                    </ul><!--!-->
+                    <hr>
+                    <p style="padding: 1rem 3rem 0;">I am passionate by how things work in general, very curious about
+                        their roots and mecanics. I love to satisfy this curiousity through programmation, espacially
+                        the Back End part.</p>
+                </div>
+            </section><!--!-->
+            <!--!-->
+            <section class="yellow" id="portfolio"><!--!-->
+                <h2>Portfolio</h2>
+                <div class="portfolio-container">
+                    <div class="portfolio-hero" style="margin: 10vh; padding-top: 10vh"><img src="images/dev_desk.jpg"
+                            style="height: 90%; width: 100%; object-fit: cover; margin-top: -10vh;"
+                            alt="desktop with books and laptop"></div><!--!-->
+                    <div class="container" style="padding-top: 5vh;">
+                        <div class="box" key="Shifts Logger" style="border-block-color: rgba(150,150,150);"><a
+                                href="https://github.com/ZubePB/ShiftsLogger.git" target="_blank"
+                                rel="noopener noreferrer">
+                                <h3 style="flex-basis: 40px;">Shifts Logger</h3>
+                            </a><!--!-->
+                            <p class="small">A project made of two Applications: A Web API and a console UI. Data is
+                                seeded in a Web API and retrieved via the UI.</p>
+                        </div>
+                        <div class="box" key="Sport Result Notifier" style="border-block-color: rgba(150,150,150);"><a
+                                href="https://github.com/ZubePB/SportResultsNotifier.git" target="_blank"
+                                rel="noopener noreferrer">
+                                <h3 style="flex-basis: 40px;">Sport Result Notifier</h3>
+                            </a><!--!-->
+                            <p class="small">A project made to scrap sport results on a website and send the result via
+                                an App.</p>
+                        </div>
+                        <div class="box" key="Excel Reader" style="border-block-color: rgba(150,150,150);"><a
+                                href="https://github.com/ZubePB/ExcelReader.git" target="_blank"
+                                rel="noopener noreferrer">
+                                <h3 style="flex-basis: 40px;">Excel Reader</h3>
+                            </a><!--!-->
+                            <p class="small">An Application to retrieve data from an excel file and present them to the
+                                user.</p>
+                        </div>
+                        <div class="box" key="Unit Testing" style="border-block-color: rgba(150,150,150);"><a
+                                href="https://github.com/ZubePB/UnitTesting" target="_blank" rel="noopener noreferrer">
+                                <h3 style="flex-basis: 40px;">Unit Testing</h3>
+                            </a><!--!-->
+                            <p class="small">A project where unit tests are used to debug the code. Using MSTest on a
+                                project named 'Coding Tracker'. </p>
+                        </div>
+                    </div>
+                </div>
+            </section><!--!-->
+            <!--!-->
+            <div id="contact" style="background-color: rgba(150,150,150);" b-uk370ndkeg="">
+                <div style="display: flex; justify-content: center; gap: 2.5rem;" b-uk370ndkeg=""><a
+                        href="mailto:pb.zube@gmail.com" b-uk370ndkeg=""><img src="images/socials/envelope.svg"
+                            alt="email" class="social-icon" b-uk370ndkeg=""></a><a href="https://github.com/ZubePB"
+                        target="_blank" rel="noopener noreferrer" b-uk370ndkeg=""><img src="images/socials/github.svg"
+                            alt="GitHub" class="social-icon" b-uk370ndkeg=""></a><a
+                        href="https://www.freecodecamp.org/P13" target="_blank" rel="noopener noreferrer"
+                        b-uk370ndkeg=""><img src="images/socials/freecodecamp.svg" alt="FreeCodeCamp"
+                            class="social-icon" b-uk370ndkeg=""></a></div><!--!-->
+                <p class="small" style="margin-top: 0; color: white;" b-uk370ndkeg="">Created by Zube Pierre Basali</p>
+            </div>
+        </div><!--!-->
+        <!--!-->
+    </div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+    <script src="_framework/blazor.webassembly.js"></script>
+
+    <!-- Visual Studio Browser Link -->
+    <script type="text/javascript" src="/_vs/browserLink" async="async" id="__browserLink_initializationData"
+        data-requestid="bcc106ebf8d44f04991c9b2ff5539306" data-requestmappingfromserver="false"
+        data-connecturl="http://localhost:50330/65452c7aa37d4fe986ebdf459724b57a/browserLink"></script>
+    <!-- End Browser Link -->
+
+
+
+</body>
+
+</html>
