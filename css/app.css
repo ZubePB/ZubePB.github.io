@@ -98,6 +98,14 @@ h1 {
         font-size: 3rem;
         margin: 0;
     }
+
+    body {
+        max-width: 100%;
+    }
+
+    section.div.aboutdiv {
+        width = 80%;
+    }
 }
 
 @media screen and (min-width: 301px) and (max-width: 360px) {
@@ -106,6 +114,14 @@ h1 {
         font-family: "Cormorant Garamond", serif;
         font-size: 4rem;
         margin: 0;
+    }
+
+    body {
+        max-width: 100%;
+    }
+
+    section.div.aboutdiv {
+        width = 80%;
     }
 }
 
@@ -206,6 +222,14 @@ a:hover {
         grid-template-columns: 330px 300px;
         grid-gap: 20px;
     }
+
+    body {
+        max-width: 100%;
+    }
+
+    section.div.aboutdiv {
+        width = 80%;
+    }
 }
 
 .container .box {
@@ -276,6 +300,13 @@ img.social-icon {
 }
 
 @media screen and (max-width: 481px){
+
+    body{ max-width: 100%;}
+
+    section.div.aboutdiv{
+        width = 80%;
+    }
+
   h1 {
         font-weight: 300;
         font-family: "Cormorant Garamond", serif;
