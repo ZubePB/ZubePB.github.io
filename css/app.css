@@ -232,7 +232,7 @@ a:hover {
     }
 
     section.div.aboutdiv {
-            width = 80%;
+        width = 80%;
     }
 
     header{
@@ -313,36 +313,4 @@ img.social-icon {
 
 .loading-progress-text:after {
     content: var(--blazor-load-percentage-text, "Loading");
-}
-
-@media screen and (max-width: 481px){
-
-    body{ max-width: 100%;}
-
-    section.div.aboutdiv{
-        width = 80%;
-    }
-
-  h1 {
-        font-weight: 300;
-        font-family: "Cormorant Garamond", serif;
-        font-size: 5rem;
-        margin: 0;
-    }
-    
-    .portfolio-container {
-        flex-direction: column;
-    }
-    
-    .portfolio-hero {
-        max-width: 100%;
-        align-self: center;
-    }
-
-    .container {
-        margin: 20px auto;
-        display: inline;
-        grid-template-columns: 330px 300px;
-        grid-gap: 20px;
-    }
 }
