@@ -215,7 +215,7 @@ a:hover {
     grid-gap: 20px;
 }
 
-@media screen and (max-width: 420px) and (max-width: 481px) {
+@media screen and (max-width: 420px) {
     body{
         width: 100vw;
     }
