@@ -215,7 +215,11 @@ a:hover {
     grid-gap: 20px;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 420px) and (max-width: 481px) {
+    body{
+        width: 100vw;
+    }
+
     .container {
         margin: 20px auto;
         display: inline;
@@ -223,12 +227,12 @@ a:hover {
         grid-gap: 20px;
     }
 
-    body {
-        max-width: 100%;
+    .portfolio-container{
+        width: 100vw;
     }
 
     section.div.aboutdiv {
-        width = 80%;
+            width = 80%;
     }
 
     header{
