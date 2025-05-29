@@ -98,14 +98,6 @@ h1 {
         font-size: 3rem;
         margin: 0;
     }
-
-    body {
-        max-width: 100%;
-    }
-
-    section.div.aboutdiv {
-        width = 80%;
-    }
 }
 
 @media screen and (min-width: 301px) and (max-width: 360px) {
@@ -114,14 +106,6 @@ h1 {
         font-family: "Cormorant Garamond", serif;
         font-size: 4rem;
         margin: 0;
-    }
-
-    body {
-        max-width: 100%;
-    }
-
-    section.div.aboutdiv {
-        width = 80%;
     }
 }
 
@@ -216,35 +200,11 @@ a:hover {
 }
 
 @media screen and (max-width: 420px) {
-    body{
-        width: 100vw;
-    }
-
     .container {
         margin: 20px auto;
         display: inline;
         grid-template-columns: 330px 300px;
         grid-gap: 20px;
-    }
-
-    .portfolio-container{
-        width: 100vw;
-    }
-
-    section.div.aboutdiv {
-        width = 80%;
-    }
-
-    header{
-        width: 100vw;
-    }
-
-    section{
-        width: 100vw;
-    }
-
-    .contact{
-        width: 100vw;
     }
 }
 
@@ -313,4 +273,36 @@ img.social-icon {
 
 .loading-progress-text:after {
     content: var(--blazor-load-percentage-text, "Loading");
+}
+
+@media screen and (max-width: 481px){
+
+    body{ max-width: 100%;}
+
+    section.div.aboutdiv{
+        width = 80%;
+    }
+
+  h1 {
+        font-weight: 300;
+        font-family: "Cormorant Garamond", serif;
+        font-size: 5rem;
+        margin: 0;
+    }
+    
+    .portfolio-container {
+        flex-direction: column;
+    }
+    
+    .portfolio-hero {
+        max-width: 100%;
+        align-self: center;
+    }
+
+    .container {
+        margin: 20px auto;
+        display: inline;
+        grid-template-columns: 330px 300px;
+        grid-gap: 20px;
+    }
 }
