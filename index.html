@@ -21,8 +21,8 @@
         <a href="#contact" target="_top">Contact</a>
     </div>
 
-    <section class="dark" id="home">
-        <div style="position: absolute; top: 30%; left: 2rem;">
+    <section class="dark mt-lg-5" id="home">
+        <div style="position: absolute; top: 20%; left: 2rem;">
             <h1>Zube Pierre Basali</h1>
             <h2>C# Back End Developper</h2>
         </div>
@@ -35,14 +35,14 @@
 
     <section class="light" id="about">
         <img class="background" src="images/grey_yellow_background.jpg" alt="grey_yellow_background" />
-        <h2 style="color: white; margin-top: -8vh">About Myself</h2>
-        <div style="background-color: rgba(190,190,190); width: 50%; padding: 4rem; margin: 3rem auto; text-align: center;">
+        <h2 style="color: white; margin-top: -6vh">About Myself</h2>
+        <div class="aboutdiv d-flex-md">
             <p class="large">
                 I'm a Back End autodidact developper specialised in C#. I like to learn and discover how
                 computers work.
             </p>
             <hr />
-            <ul style="text-align: left; columns: 2; font-size: 1.25rem; margin: 2rem 3rem; gap: 3rem;">
+            <ul class="aboutlist d-flex-md" style="text-align: left; columns: 2; font-size: 1.25rem; margin: 2rem 3rem; gap: 3rem;">
                 <li key="@skill">Basic Web API</li>
                 <li key="@skill">Entity Framework</li>
                 <li key="@skill">Sql/Sqlite</li>
@@ -64,11 +64,11 @@
     <section class="yellow" id="portfolio">
         <h2>Portfolio</h2>
         <div class="portfolio-container">
-            <div class="portfolio-hero" style="margin: 10vh; padding-top: 10vh">
-                <img src="images/dev_desk.jpg" style="height: 90%; width: 100%; object-fit: cover; margin-top: -10vh;"
+            <div class="portfolio-hero">
+                <img class="portfolio-img" src="images/dev_desk.jpg" style="height: 100%; width: 100%; object-fit: cover; margin-top: -10vh;"
                      alt="dev_desk" />
             </div>
-            <div class="container" style="padding-top: 5vh;">
+            <div class="portfolio-projects-container container" style="padding-top: 5vh;">
 
                 <div class="box" key="Shifts Logger" style="border-block-color: rgba(150,150,150);">
                     <a href="https://github.com/ZubePB/ShiftsLogger.git" target="_blank" rel="noopener noreferrer">
