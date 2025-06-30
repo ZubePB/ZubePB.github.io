@@ -14,12 +14,21 @@ body {
     width: 100%;
     font-family: "Montserrat", sans-serif;
     background: rgba(150,150,150);
+    overflow-inline: hidden;
 }
 
 @media (max-width: 768px) {
     html {
         width: 100%;
         overflow-x: hidden;
+    }
+
+    div#header {
+        width: 60%;
+    }
+
+    body {
+        width: 100vw;
     }
 }
 
