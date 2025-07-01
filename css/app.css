@@ -15,6 +15,7 @@ body {
     font-family: "Montserrat", sans-serif;
     background: rgba(150,150,150);
     overflow-inline: hidden;
+    scroll-behavior: smooth;
 }
 
 @media (max-width: 768px) {
@@ -61,7 +62,7 @@ div#main {
     display: flex;
     flex-direction: column;
 }
-/*background-color: rgba(190,190,190); width: 50%; padding: 4rem; margin: 3rem auto; text-align: center;*/
+
 .aboutdiv {
     background-color: rgba(190, 190, 190);
     width: 50%;
@@ -102,13 +103,14 @@ section.yellow {
     padding-top: 10vh;
     min-height: 100vh;
     color: white;
-    background: #FFFF96;
-    background: linear-gradient(0deg, rgba(255, 255, 150, 0.38) 0%, rgba(80, 80, 80, 1) 100%);
+    background: #fcf403;
+    background: linear-gradient(0deg, #fedf3e 0%, rgba(80, 80, 80, 1) 100%);
 }
 
 section.light {
     color: black;
-    background: rgba(255, 255, 255, .25);
+    background-image: url(/images/grey_yellow_background.jpg);
+    background-color:rgba(255, 255, 255, .25) ;
     padding: 8rem 0;
 }
 
@@ -210,7 +212,13 @@ a {
 .portfolio-container {
     display: flex;
     flex-direction: row;
-    padding-top: 3rem;
+}
+.portfolio-projects-container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    overflow-x: auto;
+    width: 90%;
 }
 
 @media screen and (max-width: 768px) {
@@ -233,10 +241,10 @@ a {
 
 .portfolio-hero {
     margin-top: 15vh;
-    width: 70%;
+    width: 80%;
     align-self: center;
     margin: 10vh;
-    padding-top: 10vh;
+    padding-top: 15vh;
 }
 
 @media screen and (max-width: 768px) {
@@ -264,6 +272,8 @@ a {
 }
 
 .container .box {
+    min-height: 20vh;
+    max-height: 20vh;
     border-radius: 10px;
     padding: 24px 16px;
     display: flex;
