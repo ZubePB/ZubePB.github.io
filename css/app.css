@@ -82,7 +82,13 @@ div#main {
     .aboutdiv {
         width: 90%;
         padding: 1rem;
+        margin-bottom: -5vh;
     }
+}
+
+.namediv {
+    margin-left: 10vw;
+    margin-top:5vh;
 }
 
 
@@ -272,6 +278,7 @@ a {
 }
 
 .container .box {
+    background: rgba(95, 95, 95, .75);
     min-height: 20vh;
     max-height: 20vh;
     border-radius: 10px;
