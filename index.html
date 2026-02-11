@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr-ch">
 
 <head>
     <meta charset="utf-8" />
@@ -10,15 +10,20 @@
     <link rel="stylesheet" href="css/app.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
     <link href="BlazorApp.styles.css" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900" rel="stylesheet">
 </head>
 
 
 <body>
-    <div id="header">
+    <div id="header" >
         <a href="#home" target="_top">Home</a>
         <a href="#about" target="_top">About</a>
         <a href="#portfolio" target="_top">Portfolio</a>
         <a href="#contact" target="_top">Contact</a>
+        <div class="language_container_1">
+            <button class="btn btn-outilne-secondary" id="fr-index-btn" href="" onclick="ToIndexFr()">Fr</button>
+        </div>
     </div>
 
     <section class="dark mt-lg-5" id="home">
@@ -31,6 +36,8 @@
                 <img src="images/down-arrow.svg" style="height: 3rem; width: 3rem;" alt="scroll down" />
             </a>
         </div>
+
+        <div id="testdiv"></div>
     </section>
 
     <section class="light" id="about">
@@ -129,7 +136,18 @@
                 </div>
             </div>
         </div>
+
+        <div id="fcc_certifications">
+            <p>
+                Also see my FreeCodeCamp Certifications(Including an Official Windows C# Certificate):
+                <a href="https://www.freecodecamp.org/P13" target="_blank" rel="noopener noreferrer">
+                    <img src="images/socials/freecodecamp.svg" alt="FreeCodeCamp"
+                         class="social-icon">
+                </a>
+            </p>
+        </div>
     </section>
+
     <div id="contact" style="background-color: rgba(150,150,150);">
         <div style="display: flex; justify-content: center; gap: 2.5rem;">
             <a href="mailto:pb.zube@gmail.com">
@@ -144,9 +162,15 @@
                 <img src="images/socials/freecodecamp.svg" alt="FreeCodeCamp"
                      class="social-icon">
             </a>
-        </div><!--!-->
+        </div>
         <p class="small" style="margin-top: 0; color: white;">Created by Zube Pierre Basali</p>
+        <p class="small" style="margin-top: 0; color: white;">Email me at: <button type="button" class="btn" onclick="copy_To_clipboard()" >pb.zube@gmail.com</button></p>
+        <div class="language_container_2">
+            <button class="btn btn-outilne-secondary" id="fr-index-btn" href="" onclick="ToIndexFr()">Fr</button>
+        </div>
     </div>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>

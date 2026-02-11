@@ -13,7 +13,7 @@ body {
     height: 100%;
     width: 100%;
     font-family: "Montserrat", sans-serif;
-    background: rgba(150,150,150);
+    background: rgba(95,95,95);
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
@@ -46,6 +46,16 @@ div#contact {
 div#main {
     display: flex;
     flex-direction: column;
+}
+
+#fcc_certifications {
+    font-family: sans-serif;
+    margin: auto;
+    width: 50%;
+    align-content: center;
+    justify-content: center;
+    color: black;
+    font-weight: 500;
 }
 
 .aboutdiv {
@@ -167,6 +177,20 @@ a {
     grid-gap: 20px;
 }
 
+.language_container_1{
+    margin-left: 40em;
+    margin-right: -40em;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    align-self:flex-end;
+    flex-direction: row;
+}
+
+.language_container_2{
+    display:none;
+}
+
 .portfolio-container {
     display: flex;
     flex-direction: row;
@@ -205,9 +229,18 @@ img.social-icon {
     height: 30px;
 }
 
-
-@media screen and (max-width: 1020px) {
-    .aboutdiv {
+@media screen and (max-width: 1080px) {
+    .language_container_1 {
+        display: none;
+    }
+    .language_container_2
+    {
+        display: flex;
+        align-self: center;
+        align-content:center;
+        justify-content: center;
+    }
+        .aboutdiv {
         width: 80%;
         padding: 2rem;
     }
