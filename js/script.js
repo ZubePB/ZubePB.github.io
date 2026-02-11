@@ -26,7 +26,7 @@
 
 <section class="light" id="about">
     <img class="background" src="images/grey_yellow_background.jpg" alt="grey_yellow_background" />
-    <h2 style="color: white; margin-top: 0vh">A propos de moi:</h2>
+    <h2 style="color: white; margin-top: 0vh">A propos de moi</h2>
     <div class="aboutdiv d-flex-md">
         <p class="large">
             Je suis un d&eacute;veloppeur back end sp&eacute;cialis&eacute; en language C#. J'aime d&eacute;couvrir et en apprendre plus sur le fonctionnement
@@ -146,7 +146,7 @@
         </a>
     </div><!--!-->
         <p class="small" style="margin-top: 0; color: white;">Cr&eacute;&eacute; par Zube Pierre Basali</p>
-        <p class="small" style="margin-top: 0; color: white;">Email me at: <button type="button" class="btn" onclick="copy_To_clipboard()" >pb.zube@gmail.com</button></p>
+        <p class="small" style="margin-top: 0; color: white;">Contactez-moi par email: <button type="button" class="btn" onclick="copy_To_clipboard()" >pb.zube@gmail.com</button></p>
 
         <div class="language_container_2">
             <button class="btn btn-outilne-secondary" id="fr-index-btn" href="" onclick="ToIndexEn()">En</button>
