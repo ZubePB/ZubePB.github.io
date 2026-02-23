@@ -35,10 +35,10 @@
         <hr class="hr1" />
         <ul class="aboutlist d-flex-md" style="text-align: left; columns: 2; font-size: 1.25rem; margin: 2rem 3rem; gap: 3rem;">
             <li accesskey="@skill">Elastic Search</li>
-            <li key="@skill">Web API Basique</li>
+            <li key="@skill">Web API</li>
             <li key="@skill">Entity Framework</li>
             <li key="@skill">Sql/Sqlite</li>
-            <li key="@skill">Test Unitaire Basique</li>
+            <li key="@skill">Test Unitaire</li>
             <li key="@skill">Soif d'apprentissage</li>
             <li key="@skill">Autodidacte</li>
             <li key="@skill">Travail d'&eacute;quipe</li>
@@ -196,10 +196,10 @@ function ToIndexEn()
             <hr class="hr1" />
             <ul class="aboutlist d-flex-md" style="text-align: left; columns: 2; font-size: 1.25rem; margin: 2rem 3rem; gap: 3rem;">
                 <li accesskey="@skill">Elastic Search</li>
-                <li key="@skill">Basic Web API</li>
+                <li key="@skill">Web API</li>
                 <li key="@skill">Entity Framework</li>
                 <li key="@skill">Sql/Sqlite</li>
-                <li key="@skill">Basic Unit Testing</li>
+                <li key="@skill">Unit Testing</li>
                 <li key="@skill">Keen Learner</li>
                 <li key="@skill">Autodidact</li>
                 <li key="@skill">Team Worker</li>
