@@ -25,6 +25,7 @@
 </section>
 
 <section class="light" id="about">
+    <img class="background" src="images/grey_yellow_background.jpg" alt="grey_yellow_background" />
     <h2 style="color: white; margin-top: 0vh">A propos de moi</h2>
     <div class="aboutdiv d-flex-md">
         <p class="large">
@@ -38,14 +39,11 @@
             <li key="@skill">Entity Framework</li>
             <li key="@skill">Sql/Sqlite</li>
             <li key="@skill">Test Unitaire</li>
-            <li key="@skill">Python</li>
-            <li key="@skill">Javascript</li>
-            <li key="@skill">Polyvalent</li>
             <li key="@skill">Soif d'apprentissage</li>
-            <li key="@skill">Autonome</li>
+            <li key="@skill">Autodidacte</li>
             <li key="@skill">Travail d'&eacute;quipe</li>
             <li key="@skill">Disponible</li>
-            <li accesskey="@skill">Autodidacte</li>
+            <li accesskey="@skill">Polyvalent</li>
         </ul>
         <hr class="hr2" />
         <p style="padding: 1rem 3rem 0;">
@@ -56,7 +54,7 @@
     </div>
 </section>
 
-<section class="portfolio" id="portfolio">
+<section class="yellow" id="portfolio">
     <h2>Portfolio</h2>
     <div class="portfolio-container">
         <div class="portfolio-hero">
@@ -132,7 +130,7 @@
         </p>
     </div>
 </section>
-<div id="contact">
+<div id="contact" style="background-color: rgba(150,150,150);">
     <div style="display: flex; justify-content: center; gap: 2.5rem;">
         <a href="mailto:pb.zube@gmail.com">
             <img src="images/socials/envelope.svg" alt="email"
@@ -148,7 +146,7 @@
         </a>
     </div><!--!-->
         <p class="small" style="margin-top: 0; color: white;">Cr&eacute;&eacute; par Zube Pierre Basali</p>
-        <p class="small" style="margin-top: 0; color: white;">Contactez-moi par email: <button type="button" style="font-weight: bold" class="btn" onclick="copy_To_clipboard()" >pb.zube@gmail.com</button></p>
+        <p class="small" style="margin-top: 0; color: white;">Contactez-moi par email: <button type="button" class="btn" onclick="copy_To_clipboard()" >pb.zube@gmail.com</button></p>
 
         <div class="language_container_2">
             <button class="btn btn-outilne-secondary" id="fr-index-btn" href="" onclick="ToIndexEn()">En</button>
@@ -188,10 +186,11 @@ function ToIndexEn()
     </section>
 
     <section class="light" id="about">
+        <img class="background" src="images/grey_yellow_background.jpg" alt="grey_yellow_background" />
         <h2 style="color: white; margin-top: 0vh">About Myself</h2>
         <div class="aboutdiv d-flex-md">
             <p class="large">
-                I am a Back End autodidact developper specialised in C#. I like to learn and discover how
+                I'm a Back End autodidact developper specialised in C#. I like to learn and discover how
                 computers work.
             </p>
             <hr class="hr1" />
@@ -201,14 +200,11 @@ function ToIndexEn()
                 <li key="@skill">Entity Framework</li>
                 <li key="@skill">Sql/Sqlite</li>
                 <li key="@skill">Unit Testing</li>
-                <li key="@skill">Python</li>
-                <li key="@skill">Javascript</li>
-                <li key="@skill">Versatile</li>
                 <li key="@skill">Keen Learner</li>
-                <li key="@skill">Autonomous</li>
+                <li key="@skill">Autodidact</li>
                 <li key="@skill">Team Worker</li>
                 <li key="@skill">Disponibility</li>
-                <li accesskey="@skill">Autodidact</li>
+                <li accesskey="@skill">Adaptability</li>
             </ul>
             <hr class="hr2" />
             <p style="padding: 1rem 3rem 0;">
@@ -219,7 +215,7 @@ function ToIndexEn()
         </div>
     </section>
 
-    <section class="portfolio" id="portfolio">
+    <section class="yellow" id="portfolio">
         <h2>Portfolio</h2>
         <div class="portfolio-container">
             <div class="portfolio-hero">
@@ -296,7 +292,7 @@ function ToIndexEn()
             </p>
         </div>
     </section>
-    <div id="contact">
+    <div id="contact" style="background-color: rgba(150,150,150);">
         <div style="display: flex; justify-content: center; gap: 2.5rem;">
             <a href="mailto:pb.zube@gmail.com">
                 <img src="images/socials/envelope.svg" alt="email"
@@ -312,7 +308,7 @@ function ToIndexEn()
             </a>
         </div><!--!-->
         <p class="small" style="margin-top: 0; color: white;">Created by Zube Pierre Basali</p>
-        <p class="small" style="margin-top: 0; color: white;">Email me at: <button type="button" style="font-weight: bold" class="btn" onclick="copy_To_clipboard()" >pb.zube@gmail.com</button></p>
+        <p class="small" style="margin-top: 0; color: white;">Email me at: <button type="button" class="btn" onclick="copy_To_clipboard()" >pb.zube@gmail.com</button></p>
 
         <div class="language_container_2">
             <button class="btn btn-outilne-secondary" id="fr-index-btn" href="" onclick="ToIndexFr()">Fr</button>
