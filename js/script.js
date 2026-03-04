@@ -15,7 +15,7 @@
 <section class="dark mt-lg-5" id="home">
     <div style="position: absolute; top: 20%; left: 2rem;" class="namediv">
         <h1>Zube Pierre Basali</h1>
-        <h2>D&eacute;veloppeur Back End C#</h2>
+        <h2>D&eacute;veloppeur .NET/C#</h2>
     </div>
     <div style="position: absolute; bottom: 8rem; left: 50%;">
         <a href="#about" target="_top">
@@ -34,16 +34,21 @@
         </p>
         <hr class="hr1" />
         <ul class="aboutlist d-flex-md" style="text-align: left; columns: 2; font-size: 1.25rem; margin: 2rem 3rem; gap: 3rem;">
-            <li accesskey="@skill">Elastic Search</li>
-            <li key="@skill">Web API</li>
-            <li key="@skill">Entity Framework</li>
-            <li key="@skill">Sql/Sqlite</li>
-            <li key="@skill">Test Unitaire</li>
-            <li key="@skill">Soif d'apprentissage</li>
-            <li key="@skill">Autodidacte</li>
-            <li key="@skill">Travail d'&eacute;quipe</li>
-            <li key="@skill">Disponible</li>
-            <li accesskey="@skill">Polyvalent</li>
+                <li accesskey="@skill">Elastic Search</li>
+                <li key="@skill">ASP.NET Core Web Api</li>
+                <li key="@skill">Entity Framework</li>
+                <li key="@skill">Serveur Sql/Sqlite</li>
+                <li key="@skill">Test Unitaire</li>
+                <li key="@skill">Web Scrapping</li>
+                <li key="@skill">Design Patterns</li>
+                <li key="@skill">Debogage</li>
+                <li key="@skill">Soif d'apprentissage</li>
+                <li key="@skill">Autodidacte</li>
+                <li key="@skill">Travail d'Équipe</li>
+                <li key="@skill">Disponibilité</li>
+                <li key="@skill">Polyvalent</li>
+                <li key="@skill">Esprit logique</li>
+                <li key="@skill">Contact Client</li>
         </ul>
         <hr class="hr2" />
         <p style="padding: 1rem 3rem 0;">
@@ -174,7 +179,7 @@ function ToIndexEn()
     <section class="dark mt-lg-5" id="home">
         <div style="position: absolute; top: 20%; left: 2rem;" class="namediv">
             <h1>Zube Pierre Basali</h1>
-            <h2>C# Back End Developper</h2>
+            <h2>.NET/C# developer</h2>
         </div>
         <div style="position: absolute; bottom: 8rem; left: 50%;">
             <a href="#about" target="_top">
@@ -196,15 +201,20 @@ function ToIndexEn()
             <hr class="hr1" />
             <ul class="aboutlist d-flex-md" style="text-align: left; columns: 2; font-size: 1.25rem; margin: 2rem 3rem; gap: 3rem;">
                 <li accesskey="@skill">Elastic Search</li>
-                <li key="@skill">Web API</li>
+                <li key="@skill">ASP.NET Core Web Api</li>
                 <li key="@skill">Entity Framework</li>
-                <li key="@skill">Sql/Sqlite</li>
+                <li key="@skill">Sql server/Sqlite</li>
                 <li key="@skill">Unit Testing</li>
+                <li key="@skill">Web Scrapping</li>
+                <li key="@skill">Design Patterns</li>
+                <li key="@skill">Debugging</li>
                 <li key="@skill">Keen Learner</li>
                 <li key="@skill">Autodidact</li>
                 <li key="@skill">Team Worker</li>
                 <li key="@skill">Disponibility</li>
-                <li accesskey="@skill">Adaptability</li>
+                <li key="@skill">Adaptability</li>
+                <li key="@skill">Logical Mind</li>
+                <li key="@skill">Customer Contact</li>
             </ul>
             <hr class="hr2" />
             <p style="padding: 1rem 3rem 0;">
@@ -230,7 +240,7 @@ function ToIndexEn()
                         <h3 style="flex-basis: 40px;">ElasticSearch MVC</h3>
                     </a>
                     <p class="small" style="padding-top:1rem">
-                        An ASP.NET MVC app principles to manage books and libraries. ElasticSearch is used to perform all data opertaions.
+                        An ASP.NET MVC app principles to manage books and libraries. ElasticSearch is used to perform all data operations.
                     </p>
                 </div>
                 <div class="box" key="Exercice Logger" style="border-block-color: rgba(150,150,150);">
