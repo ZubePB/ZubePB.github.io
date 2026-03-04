@@ -64,7 +64,7 @@
     <div class="portfolio-container">
         <div class="portfolio-hero">
             <img class="portfolio-img" src="images/dev_desk.jpg" style="height: 100%; width: 100%; object-fit: cover; margin-top: -10vh;"
-                 alt="dev_desk" />
+                 alt="dev_desk" /> 
         </div>
 
         <div class="portfolio-projects-container container" style="padding-top: 5vh;">
