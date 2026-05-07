@@ -29,7 +29,7 @@
     <h2 style="color: white; margin-top: 0vh">A propos de moi</h2>
     <div class="aboutdiv d-flex-md">
         <p class="large">
-            Je suis un d&eacute;veloppeur back end sp&eacute;cialis&eacute; en language C#. J'aime d&eacute;couvrir et en apprendre plus sur le fonctionnement
+            Je suis un d&eacute;veloppeur sp&eacute;cialis&eacute; en language C#. J'aime d&eacute;couvrir et en apprendre plus sur le fonctionnement
             des ordinateurs.
         </p>
         <hr class="hr1" />
