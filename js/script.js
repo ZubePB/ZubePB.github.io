@@ -15,7 +15,7 @@
 <section class="dark mt-lg-5" id="home">
     <div style="position: absolute; top: 20%; left: 2rem;" class="namediv">
         <h1>Zube Pierre Basali</h1>
-        <h2>D&eacute;veloppeur .NET/C#</h2>
+        <h2>D&eacute;veloppeur de Logiciel</h2>
     </div>
     <div style="position: absolute; bottom: 8rem; left: 50%;">
         <a href="#about" target="_top">
@@ -34,6 +34,8 @@
         </p>
         <hr class="hr1" />
         <ul class="aboutlist d-flex-md" style="text-align: left; columns: 2; font-size: 1.25rem; margin: 2rem 3rem; gap: 3rem;">
+                <li key="@skill">.NET/C#</li>
+                <li key="@skill">Javascript</li>
                 <li accesskey="@skill">Elastic Search</li>
                 <li key="@skill">ASP.NET Core Web Api</li>
                 <li key="@skill">Entity Framework</li>
@@ -125,7 +127,7 @@
         </div>
     </div>
 
-    <div id="fcc_certifications">
+    <div id="fcc_certifications" class="mt-5 pt-5">
         <p>
             A voir également mes Certificats FreeCodeCamp (Incluant un Certificat Officiel Windows en language C#):
             <a href="https://www.freecodecamp.org/P13" target="_blank" rel="noopener noreferrer">
@@ -179,7 +181,7 @@ function ToIndexEn()
     <section class="dark mt-lg-5" id="home">
         <div style="position: absolute; top: 20%; left: 2rem;" class="namediv">
             <h1>Zube Pierre Basali</h1>
-            <h2>.NET/C# developer</h2>
+            <h2>Software Developer</h2>
         </div>
         <div style="position: absolute; bottom: 8rem; left: 50%;">
             <a href="#about" target="_top">
@@ -195,18 +197,20 @@ function ToIndexEn()
         <h2 style="color: white; margin-top: 0vh">About Myself</h2>
         <div class="aboutdiv d-flex-md">
             <p class="large">
-                I'm a Back End autodidact developper specialised in C#. I like to learn and discover how
+                I am a software developper specialised in C#. I like to learn and discover how
                 computers work.
             </p>
             <hr class="hr1" />
             <ul class="aboutlist d-flex-md" style="text-align: left; columns: 2; font-size: 1.25rem; margin: 2rem 3rem; gap: 3rem;">
+                <li accesskey="@skill">.NET/C#</li>
+                <li key="@skill">Javascript</li>
                 <li accesskey="@skill">Elastic Search</li>
                 <li key="@skill">ASP.NET Core Web Api</li>
                 <li key="@skill">Entity Framework</li>
                 <li key="@skill">Sql server/Sqlite</li>
                 <li key="@skill">Unit Testing</li>
-                <li key="@skill">Web Scrapping</li>
                 <li key="@skill">Design Patterns</li>
+                <li key="@skill">Web Scrapping</li>
                 <li key="@skill">Debugging</li>
                 <li key="@skill">Keen Learner</li>
                 <li key="@skill">Autodidact</li>
@@ -292,7 +296,7 @@ function ToIndexEn()
             </div>
         </div>
 
-        <div id="fcc_certifications">
+        <div id="fcc_certifications" class="mt-5 pt-5">
             <p>
                 Also see my FreeCodeCamp Certifications(Including an Official Windows C# Certificate):
                 <a href="https://www.freecodecamp.org/P13" target="_blank" rel="noopener noreferrer">

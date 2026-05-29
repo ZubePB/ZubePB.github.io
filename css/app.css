@@ -19,7 +19,7 @@ body {
 }
 
 #about {
-    min-height: 100vh;
+    min-height: 110vh;
 }
 
 div#header {
@@ -92,7 +92,7 @@ section.yellow {
     color: white;
     background: #fcf403;
     background: linear-gradient(0deg, #fedf3e 0%, rgba(80, 80, 80, 1) 100%);
-    margin-top: -3rem;
+    margin-top: -5.5rem;
 }
 
 section.light {
