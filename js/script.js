@@ -34,16 +34,19 @@
         </p>
         <hr class="hr1" />
         <ul class="aboutlist d-flex-md" style="text-align: left; columns: 2; font-size: 1.25rem; margin: 2rem 3rem; gap: 3rem;">
-                <li key="@skill">.NET/C#</li>
+                <li accesskey="@skill">.NET/C#</li>
                 <li key="@skill">Javascript</li>
+                <li key="@skill">HTML/CSS</li>
                 <li accesskey="@skill">Elastic Search</li>
                 <li key="@skill">ASP.NET Core Web Api</li>
                 <li key="@skill">Entity Framework</li>
-                <li key="@skill">Serveur Sql/Sqlite</li>
-                <li key="@skill">Test Unitaire</li>
-                <li key="@skill">Web Scrapping</li>
+                <li key="@skill">Sql server/Sqlite</li>
+                <li key="@skill">Unit Testing</li>
+                <li key="@skill">MVC</li>
+                <li key="@skill">Blazor</li>
                 <li key="@skill">Design Patterns</li>
-                <li key="@skill">Debogage</li>
+                <li key="@skill">Web Scrapping</li>
+                <li key="@skill">Debugging</li>
                 <li key="@skill">Soif d'apprentissage</li>
                 <li key="@skill">Autodidacte</li>
                 <li key="@skill">Travail d'Équipe</li>
@@ -79,23 +82,25 @@
                     Une application ASP.NET MVC pour g&eacute;rer des livres et des librairies. Toutes les op&eacute;ration de donn&eacute;es sont effectu&eacute;es avec ElasticSearch.
                 </p>
             </div>
-            <div class="box" key="Exercice Logger" style="border-block-color: rgba(150,150,150);">
-                <a href="https://github.com/ZubePB/ASP.NET_ExerciceLogger.git" target="_blank" rel="noopener noreferrer">
-                    <h3 style="flex-basis: 40px;">ASP.NET Exercice Logger</h3>
-                </a>
-                <p class="small" style="padding-top:1rem">
-                    Une simple application ASP.NET revoyant les bases en permettant la gestion d'exercices et l'affichage de rapports simplifi&eacute;s via Entity Framework.
-                </p>
-            </div>
-            <div class="box" key="Shifts Logger" style="border-block-color: rgba(150,150,150);">
-                <a href="https://github.com/ZubePB/ShiftsLogger.git" target="_blank" rel="noopener noreferrer">
-                    <h3 style="flex-basis: 40px;">Shifts Logger</h3>
-                </a>
-                <p class="small" style="padding-top:1rem">
-                    Un project fait de deux applications: Une Web API et un IU console. Les donn&eacute;es sont g&eacute;r&eacute;es par
-                    l'interface Web et r&eacute;cup&eacute;r&eacute;es via IU console.
-                </p>
-            </div>
+
+                <div class="box" key="Exercice Logger" style="border-block-color: rgba(150,150,150);">
+                    <a href="https://github.com/ZubePB/MVC_Budget.git" target="_blank" rel="noopener noreferrer">
+                        <h3 style="flex-basis: 40px;">ASP.Net Core MVC Budget</h3>
+                    </a>
+                    <p class="small" style="padding-top:1rem">
+                        Une application pour gérer des dépenses personnelles et/ou des transactions professionnelles simples ou récurrentes, 
+                        exploitant la puissance des outils MVC conjointement avec javascript .
+                    </p>
+                </div>
+
+                <div class="box" key="Shifts Logger" style="border-block-color: rgba(150,150,150);">
+                    <a href="https://github.com/ZubePB/Blazor_WardrobeInventory.git" target="_blank" rel="noopener noreferrer">
+                        <h3 style="flex-basis: 40px;">Wardrobe Inventory</h3>
+                    </a>
+                    <p class="small" style="padding-top:1rem">
+                        Une garde-robe pour gérer ses vêtements et ses ensembles uniquement avec Blazor et Entity Framework.
+                    </p>
+                </div>
 
             <div class="box" key="Sport Result Notifier" style="border-block-color: rgba(150,150,150);">
                 <a href="https://github.com/ZubePB/SportResultsNotifier.git" target="_blank"
@@ -204,11 +209,14 @@ function ToIndexEn()
             <ul class="aboutlist d-flex-md" style="text-align: left; columns: 2; font-size: 1.25rem; margin: 2rem 3rem; gap: 3rem;">
                 <li accesskey="@skill">.NET/C#</li>
                 <li key="@skill">Javascript</li>
+                <li key="@skill">HTML/CSS</li>
                 <li accesskey="@skill">Elastic Search</li>
                 <li key="@skill">ASP.NET Core Web Api</li>
                 <li key="@skill">Entity Framework</li>
                 <li key="@skill">Sql server/Sqlite</li>
                 <li key="@skill">Unit Testing</li>
+                <li key="@skill">MVC</li>
+                <li key="@skill">Blazor</li>
                 <li key="@skill">Design Patterns</li>
                 <li key="@skill">Web Scrapping</li>
                 <li key="@skill">Debugging</li>
@@ -247,21 +255,22 @@ function ToIndexEn()
                         An ASP.NET MVC app principles to manage books and libraries. ElasticSearch is used to perform all data operations.
                     </p>
                 </div>
+
                 <div class="box" key="Exercice Logger" style="border-block-color: rgba(150,150,150);">
-                    <a href="https://github.com/ZubePB/ASP.NET_ExerciceLogger.git" target="_blank" rel="noopener noreferrer">
-                        <h3 style="flex-basis: 40px;">ASP.NET Exercice Logger</h3>
+                    <a href="https://github.com/ZubePB/MVC_Budget.git" target="_blank" rel="noopener noreferrer">
+                        <h3 style="flex-basis: 40px;">ASP.Net Core MVC Budget</h3>
                     </a>
                     <p class="small" style="padding-top:1rem">
-                        A simple ASP.NET app to learn the basics by managing exercices and displaying simple reports for each of them via a Web Api using Entity Framework.
+                        An application to manage personal and simple business transactions. Using MVC strong tools in conjonction with javascript.
                     </p>
                 </div>
+
                 <div class="box" key="Shifts Logger" style="border-block-color: rgba(150,150,150);">
-                    <a href="https://github.com/ZubePB/ShiftsLogger.git" target="_blank" rel="noopener noreferrer">
-                        <h3 style="flex-basis: 40px;">Shifts Logger</h3>
+                    <a href="https://github.com/ZubePB/Blazor_WardrobeInventory.git" target="_blank" rel="noopener noreferrer">
+                        <h3 style="flex-basis: 40px;">Wardrobe Inventory</h3>
                     </a>
                     <p class="small" style="padding-top:1rem">
-                        A project made of two Applications: A Web API and a console UI. Data is seeded in a
-                        Web API and retrieved via the UI.
+                        A project made using Blazor and Entity Framework SQLite to handle data for a wardrobe.
                     </p>
                 </div>
 
