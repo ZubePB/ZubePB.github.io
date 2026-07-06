@@ -29,8 +29,7 @@
     <h2 style="color: white; margin-top: 0vh">A propos de moi</h2>
     <div class="aboutdiv d-flex-md">
         <p class="large">
-            Je suis un d&eacute;veloppeur sp&eacute;cialis&eacute; en language C#. J'aime d&eacute;couvrir et en apprendre plus sur le fonctionnement
-            des ordinateurs.
+            Je suis un d&eacute;veloppeur fullstack et backend. J'aime apprendre, r&eacute;soudre des problèmes et optimiser les choses.
         </p>
         <hr class="hr1" />
         <ul class="aboutlist d-flex-md" style="text-align: left; columns: 2; font-size: 1.25rem; margin: 2rem 3rem; gap: 3rem;">
@@ -58,8 +57,7 @@
         <hr class="hr2" />
         <p style="padding: 1rem 3rem 0;">
             Je suis curieux de conna&icirc;tre le fonctionnement de toute chose, j'aime
-            d&eacute;couvrir leurs origines et leurs m&eacute;caniques. La programmation m'apporte satisfaction dans cette qu&ecirc;te,
-            surtout lorsqu'il s'agit de back end.
+            d&eacute;couvrir leurs origines et leurs m&eacute;caniques. La programmation m'apporte satisfaction dans cette qu&ecirc;te.
         </p>
     </div>
 </section>
@@ -202,8 +200,7 @@ function ToIndexEn()
         <h2 style="color: white; margin-top: 0vh">About Myself</h2>
         <div class="aboutdiv d-flex-md">
             <p class="large">
-                I am a software developper specialised in C#. I like to learn and discover how
-                computers work.
+                I am a fullstack and backend software developper. I like to learn, find solution to problems, and optimize things.
             </p>
             <hr class="hr1" />
             <ul class="aboutlist d-flex-md" style="text-align: left; columns: 2; font-size: 1.25rem; margin: 2rem 3rem; gap: 3rem;">
@@ -231,8 +228,7 @@ function ToIndexEn()
             <hr class="hr2" />
             <p style="padding: 1rem 3rem 0;">
                 I am passionate by how things work in general, very curious about their
-                roots and mecanics. I love to satisfy this curiousity through programmation, espacially the Back End
-                part.
+                roots and mecanics. I love to satisfy this curiousity through programmation.
             </p>
         </div>
     </section>
